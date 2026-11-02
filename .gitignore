@@ -9,3 +9,7 @@ build/
 htmlcov/
 *.log
 tdr-output/
+
+# Upgrade v1: never commit caches or partial downloads
+*.pyc
+*.part
